@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f5f5f7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d1d1f;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* MENÚ */
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 18px;
+}
+
+/* TÍTULOS */
+
+h2 {
+    font-size: 28px;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+}
+
+/* PÁRRAFOS */
+
+p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/* IMAGEN PRINCIPAL */
+
+.imagen-principal {
+    width: 70%;
+    max-width: 700px;
+    border-radius: 18px;
+    margin-top: 20px;
+}
+
+/* CONTENEDOR DE CARDS */
+
+.cards {
+    text-align: center;
+}
+
+/* CARDS */
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 320px;
+    padding: 20px;
+    margin: 20px;
+
+    background-color: #f5f5f7;
+    border: 1px solid #d2d2d7;
+    border-radius: 18px;
+
+    text-align: center;
+}
+
+/* IMÁGENES DE LAS CARDS */
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* TÍTULO DE LAS CARDS */
+
+.card h2 {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* TEXTO DE LAS CARDS */
+
+.card p {
+    font-size: 16px;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
